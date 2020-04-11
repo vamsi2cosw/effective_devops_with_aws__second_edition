@@ -12,4 +12,5 @@ variable "my_ami_id" {
 
 variable "my_pem_keyname" {
   description = "the Pem Key Name"
+  default   =  "/home/vamshi/.ssh/EffectiveDevOpsAWS.pem"
 }
